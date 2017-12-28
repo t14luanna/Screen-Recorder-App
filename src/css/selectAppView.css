@@ -1,0 +1,12 @@
+.view-list{
+    list-style-type: none;
+}
+
+.view-list li{
+    display: inline-block;
+}
+
+.view-list li span{
+    text-decoration: none;
+    color: black;
+}

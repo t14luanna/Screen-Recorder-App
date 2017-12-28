@@ -1,0 +1,24 @@
+{
+  "name": "screen-recorder-app",
+  "version": "0.9.12",
+  "description": "Screen Record, App Record",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "screen-recorder",
+    "screen",
+    "recorder",
+    "app"
+  ],
+  "author": "t14LuanNA",
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "electron-packager": "^10.1.0"
+  }
+}

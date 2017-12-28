@@ -1,0 +1,41 @@
+body {
+  background-color: #ffffff;
+  font-family: monospace;
+  padding: 0;
+}
+
+.row{
+  /* display: flex; */
+  width: 100%;
+}
+
+.col {
+  /* flex: 1; */
+  height: 100%;
+  display:inline-block;
+}
+
+.video-col{
+  flex: 15;
+  width: 90%;
+  height: 100%;
+}
+
+.video-main{
+  width: 100%;
+  border: 1px solid black;
+}
+
+.button-col{
+  width: 100%;
+  padding: 0;
+}
+
+.button-col button{
+  padding: 0;
+  display: block;
+  background: none;
+  border: 1px solid black;
+  width: 32px;
+  height: 32px;
+}
